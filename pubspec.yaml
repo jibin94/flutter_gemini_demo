@@ -1,0 +1,36 @@
+name: flutter_gemini_demo
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.2
+  flutter_dotenv: ^5.1.0
+  image_picker: ^1.0.7
+  flutter_animate: ^4.5.0
+  flutter_spinkit: ^5.2.1
+  badges: ^3.1.2
+  cupertino_icons: ^1.0.6
+  flutter_gemini: ^2.0.3
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - .env
